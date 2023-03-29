@@ -8,10 +8,6 @@ class GestureDetectorListener: GestureDetector.SimpleOnGestureListener() {
 
     var movement: Movement? = null
 
-    override fun onDown(e: MotionEvent): Boolean {
-        return true
-    }
-
     override fun onFling(
         e1: MotionEvent,
         e2: MotionEvent,
